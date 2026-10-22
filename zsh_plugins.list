@@ -1,0 +1,12 @@
+# Load Oh My Zsh base library and git plugin
+robbyrussell/oh-my-zsh path:lib
+robbyrussell/oh-my-zsh path:plugins/git
+
+# Your third-py plugins (Antidote handles fast-syntax-highlighting & autosuggestions smoothly)
+zdharma-continuum/fast-syntax-highlighting
+Aloxaf/fzf-tab
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-syntax-highlighting
+
+# Theme: agnoster (loaded as a prompt theme via OMZ path)
+robbyrussell/oh-my-zsh path:themes/agnoster.zsh-theme
